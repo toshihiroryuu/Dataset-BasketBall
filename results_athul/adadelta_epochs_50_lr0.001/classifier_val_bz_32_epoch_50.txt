@@ -1,0 +1,24 @@
+Model          : classifier_loss_bz_32_epoch_50.h5
+Batch_size     : 32
+Learning rate  : 0.001
+Optimizer      : adadelta
+Epochs         : /50
+
+Training Accuracy    : 0.5660377144813538
+Validation Accuracy  : 0.5675675868988037
+Training_loss        : 0.6473053693771362
+Validation Loss      : 0.6475313901901245
+
+Confusion Matrix
+[[21  0]
+ [15  1]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.58      1.00      0.74        21
+           1       1.00      0.06      0.12        16
+
+    accuracy                           0.59        37
+   macro avg       0.79      0.53      0.43        37
+weighted avg       0.76      0.59      0.47        37
