@@ -1,0 +1,24 @@
+Model          : classifier_loss_bz_32_epoch_50.h5
+Batch_size     : 32
+Learning rate  : 0.001
+Optimizer      : rmsprop
+Epochs         : /50
+
+Training Accuracy    : 0.99622642993927
+Validation Accuracy  : 0.9189189076423645
+Training_loss        : 0.006646341644227505
+Validation Loss      : 0.1418120563030243
+
+Confusion Matrix
+[[20  1]
+ [ 1 15]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.95      0.95      0.95        21
+           1       0.94      0.94      0.94        16
+
+    accuracy                           0.95        37
+   macro avg       0.94      0.94      0.94        37
+weighted avg       0.95      0.95      0.95        37
